@@ -1,8 +1,0 @@
-# Ignore everything
-*
-
-# But don't ignore these:
-!.gitignore
-!*/                 # Allow folders
-!*.R                # Allow R files
-!**/.gitkeep        # Allow .gitkeep in any folder
