@@ -108,3 +108,4 @@ print(p8)
 cat("\n💾 SAVING: Saving last plot to PNG\n")
 ggsave("mpg_vs_weight.png", plot = p8, width = 7, height = 5)
 cat("✅ Plot saved to: mpg_vs_weight.png\n")
+
