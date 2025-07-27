@@ -3,4 +3,6 @@
 
 # But don't ignore these:
 !.gitignore
-!*.R
+!*/                 # Allow folders
+!*.R                # Allow R files
+!**/.gitkeep        # Allow .gitkeep in any folder
