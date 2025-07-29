@@ -15,9 +15,7 @@ This repository contains a complete, step-by-step tutorial series to help you le
 
 ---
 
-## 📌 What You Will Learn (With Code-Level Explanations)
-
-Got it! Here's a more **elaborate yet simple explanation** for each of the four parts in your README — expanding the explanations with more details on *why* each step matters and *what exactly happens* in the code, so readers can fully grasp the concepts.
+## 📌 What You Will Learn
 
 ---
 
