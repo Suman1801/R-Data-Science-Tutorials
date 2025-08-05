@@ -1,10 +1,10 @@
-# 📘 R Data Science Tutorials (Beginner to Intermediate)
+#  R Data Science Tutorials (Beginner to Intermediate)
 
 This repository contains a complete, step-by-step tutorial series to help you learn **R programming for data science from scratch**, using **freely available datasets** like `mtcars`. Each script is carefully explained so you understand not just *what* to do, but *why* you are doing it and *what you'll learn* by running each block of code.
 
 ---
 
-## 📂 Files in This Repository
+##  Files in This Repository
 
 | File                             | What It Teaches                                                               |
 | -------------------------------- | ----------------------------------------------------------------------------- |
@@ -15,11 +15,11 @@ This repository contains a complete, step-by-step tutorial series to help you le
 
 ---
 
-## 📌 What You Will Learn
+##  What You Will Learn
 
 ---
 
-### ✅ Part 1: Data Cleaning — Detailed & Simple Explanation
+###  Part 1: Data Cleaning — Detailed & Simple Explanation
 
 **Goal:** Make sure your dataset is neat, consistent, and ready for any analysis.
 
@@ -48,7 +48,7 @@ This repository contains a complete, step-by-step tutorial series to help you le
 
 ---
 
-### ✅ Part 2: Handling Missing Values (NA) — Detailed & Simple Explanation
+###  Part 2: Handling Missing Values (NA) — Detailed & Simple Explanation
 
 **Goal:** Identify and manage missing or incomplete data so it doesn’t skew your analysis.
 
@@ -77,7 +77,7 @@ This repository contains a complete, step-by-step tutorial series to help you le
 
 ---
 
-### ✅ Part 3: Base R Visualization — Detailed & Simple Explanation
+###  Part 3: Base R Visualization — Detailed & Simple Explanation
 
 **Goal:** Learn to use R’s basic plotting functions to explore and understand your data visually.
 
@@ -103,7 +103,7 @@ This repository contains a complete, step-by-step tutorial series to help you le
 
 ---
 
-### ✅ Part 4: `ggplot2` Visualization — Detailed & Simple Explanation
+###  Part 4: `ggplot2` Visualization — Detailed & Simple Explanation
 
 **Goal:** Master creating polished, flexible, and layered plots with the powerful `ggplot2` package.
 
@@ -132,7 +132,7 @@ This repository contains a complete, step-by-step tutorial series to help you le
 
 ---
 
-## 📦 Packages Used
+##  Packages Used
 
 | Package        | Purpose                         |
 | -------------- | ------------------------------- |
@@ -147,7 +147,7 @@ All packages are freely available on CRAN. Each script installs missing ones aut
 
 ---
 
-## 🚀 How to Use This Repo
+##  How to Use This Repo
 
 1. Clone or download this repository
 2. Open `.R` files in RStudio
@@ -158,18 +158,11 @@ Each part is a **standalone tutorial** with output built-in — great for self-p
 
 ---
 
-## 👨‍🏫 Author
+##  Author
 
 Created by **Suman Bhowmick** to help beginners and students learn R practically for academic research and data science.
 
 ---
-
-## 🗓️ Coming Soon
-
-* Part 5: Correlation, Summary Statistics & Matrix Plots
-* Part 6: Time Series & Date Handling
-* Part 7: Modeling Basics (Linear Regression)
-* Part 8: Writing Your Own Functions in R
 
 ---
 
