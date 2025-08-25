@@ -1,25 +1,23 @@
-#  R Data Science Tutorials (Beginner to Intermediate)
+# R Data Science Tutorials (Beginner to Intermediate)
 
 This repository contains a complete, step-by-step tutorial series to help you learn **R programming for data science from scratch**, using **freely available datasets** like `mtcars`. Each script is carefully explained so you understand not just *what* to do, but *why* you are doing it and *what you'll learn* by running each block of code.
 
 ---
 
-##  Files in This Repository
+## Files in This Repository
 
-| File                             | What It Teaches                                                               |
-| -------------------------------- | ----------------------------------------------------------------------------- |
-| `part1_data_cleaning_advanced.R` | Complete guide to data cleaning in R using base R and `dplyr`                 |
-| `part2_na_handling.R`            | Strategies for detecting, visualising, replacing, and removing missing values |
-| `part3_base_r_visualization.R`   | Core data visualisation techniques using base R functions                     |
-| `part4_ggplot2_visualization.R`  | Elegant and layered visualizations using `ggplot2`                            |
+| File                               | What It Teaches                                                               |
+| ---------------------------------- | ----------------------------------------------------------------------------- |
+| `part1_data_cleaning_advanced.R`   | Complete guide to data cleaning in R using base R and `dplyr`                 |
+| `part2_na_handling.R`              | Strategies for detecting, visualising, replacing, and removing missing values |
+| `part3_base_r_visualization.R`     | Core data visualisation techniques using base R functions                     |
+| `part4_ggplot2_visualization.R`    | Elegant and layered visualizations using `ggplot2`                            |
 | `part5_simple_linear_regression.R` | Introduction to building and interpreting simple linear regression models     |
-| `part6_multiple_linear_regression.R`| Building models with multiple predictors and checking for multicollinearity |
+| `part6_multiple_linear_regression.R`| Building models with multiple predictors and checking for multicollinearity   |
 
 ---
 
-##  What You Will Learn
-
----
+## What You Will Learn
 
 ###  Part 1: Data Cleaning — Detailed & Simple Explanation
 
@@ -134,59 +132,56 @@ This repository contains a complete, step-by-step tutorial series to help you le
 
 ---
 
-<<<<<<< HEAD
-=======
-###  Part 5: Simple Linear Regression — Detailed & Simple Explanation
+### Part 5: Simple Linear Regression — Detailed & Simple Explanation
 
 **Goal:** Understand how to model the relationship between two continuous variables, make predictions, and interpret the results.
 
-* `lm(mpg ~ wt, data = df)`
-  *Fits a linear model to predict a target variable (`mpg`) from a predictor variable (`wt`).* This helps you quantify the relationship between them.
+* `lm(mpg ~ wt, data = df)`  
+  *Fits a linear model to predict a target variable (`mpg`) from a predictor variable (`wt`).*
 
-* `summary(model)`
-  *Provides detailed statistics about the model's performance.* You'll learn to interpret key outputs like coefficients, p-values, and R-squared.
+* `summary(model)`  
+  *Provides detailed statistics about the model's performance.*
 
-* **Coefficients:**
-  *Understand what the intercept and slope represent.* For example, how much `mpg` is expected to change for every one-unit increase in `wt`.
+* **Coefficients:**  
+  *Understand what the intercept and slope represent.*
 
-* **R-squared:**
-  *Measures how much of the variability in the target variable is explained by the model.* A key metric for model fit.
+* **R-squared:**  
+  *Measures how much of the variability in the target variable is explained by the model.*
 
-* `predict(model, newdata = ...)`
+* `predict(model, newdata = ...)`  
   *Use the trained model to make predictions on new, unseen data.*
 
-* **Diagnostic Plots:**
-  *Visualize model residuals to check for assumptions* like linearity and constant variance, ensuring your model is reliable.
+* **Diagnostic Plots:**  
+  *Visualize model residuals to check for assumptions.*
 
 **By the end of Part 5:** You will know how to build a simple linear regression model, understand its statistical summary, visualize it, and use it for prediction.
 
 ---
 
-###  Part 6: Multiple Linear Regression — Detailed & Simple Explanation
+### Part 6: Multiple Linear Regression — Detailed & Simple Explanation
 
 **Goal:** Extend your modeling skills to include multiple predictors and learn how to evaluate a more complex model.
 
-* `lm(mpg ~ wt + hp + cyl, data = df)`
-  *Builds a model with more than one predictor.* This allows for more nuanced analysis by controlling for multiple factors simultaneously.
+* `lm(mpg ~ wt + hp + cyl, data = df)`  
+  *Builds a model with more than one predictor.*
 
-* **Interpreting Coefficients:**
+* **Interpreting Coefficients:**  
   *Learn how to interpret a coefficient's meaning while all other predictors are held constant.*
 
-* **Adjusted R-squared:**
-  *Understand why Adjusted R-squared is more appropriate than R-squared for multiple regression,* as it accounts for the number of predictors.
+* **Adjusted R-squared:**  
+  *Understand why Adjusted R-squared is more appropriate than R-squared for multiple regression.*
 
-* `vif(model)`
-  *Check for multicollinearity using the Variance Inflation Factor (VIF).* This helps you detect when predictors are too correlated with each other, which can distort model results.
+* `vif(model)`  
+  *Check for multicollinearity using the Variance Inflation Factor (VIF).*
 
-* **Model Comparison:**
-  *Compare the performance of the simple vs. multiple regression models* to see if adding more predictors improved the model's explanatory power.
+* **Model Comparison:**  
+  *Compare the performance of the simple vs. multiple regression models.*
 
 **By the end of Part 6:** You will be able to build a model with several predictors, interpret its output in context, diagnose potential issues like multicollinearity, and decide which model is better.
 
 ---
 
->>>>>>> a2abf6a (Update: added new files or changes)
-##  Packages Used
+## Packages Used
 
 | Package        | Purpose                         |
 | -------------- | ------------------------------- |
@@ -197,32 +192,19 @@ This repository contains a complete, step-by-step tutorial series to help you le
 | `naniar`       | NA visualization heatmaps       |
 | `VIM`, `mice`  | Missing data diagnostics        |
 
-All packages are freely available on CRAN. Each script installs missing ones automatically.
-
 ---
 
-##  How to Use This Repo
+## How to Use This Repo
 
-1. Clone or download this repository
-2. Open `.R` files in RStudio
-3. Run each script section by section
-4. Observe output in console and plot window
+1. Clone or download this repository  
+2. Open `.R` files in RStudio  
+3. Run each script section by section  
+4. Observe output in console and plot window  
 
 Each part is a **standalone tutorial** with output built-in — great for self-paced learning.
 
 ---
 
-##  Author
+## Author
 
 Created by **Suman Bhowmick** to help beginners and students learn R practically for academic research and data science.
-
-<<<<<<< HEAD
----
-
----
-
-## 📜 License
-
-MIT License — free to use, modify, and share.
-=======
->>>>>>> a2abf6a (Update: added new files or changes)
